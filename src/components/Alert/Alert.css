@@ -1,0 +1,27 @@
+.alert-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 70%;
+    border-bottom: 1px solid grey;
+}
+.alert-head > p {
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+.alert-head > .fa-solid{
+    font-size: 20px;
+}
+.alert-body{
+    color: black;
+    display: flex;
+    margin: 1rem 0 1.5rem 2rem;
+    /* justify-content: center; */
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    align-items: center;
+}
